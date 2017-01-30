@@ -5,6 +5,7 @@ public class Main {
         compInt();
     }
     public static void Pi(){
+        //Calculating the precise number of PI
         double Pi = 0;
         int j = 1;
         for(int i=0; i<=10000; i++){
@@ -14,6 +15,7 @@ public class Main {
         System.out.println(4*Pi);
     }
     public static void compInt(){
+        // Finding how many years until the final value is twice more then original value
         double P = 10000.0;
         double I = 0.0;
         double r = 0.05;
